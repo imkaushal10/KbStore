@@ -47,8 +47,8 @@ export default function RootLayout({ children }) {
                 </div>
                 <div>
                   <h3>Support</h3>
-                  <Link href={'/'}>Contact</Link>
-                  <Link href={'/'}>FAQs</Link>
+                  <Link href={'/contact'}>Contact</Link>
+                  <Link href={'/faq'}>FAQs</Link>
                 </div>
               </div>
 
@@ -56,6 +56,7 @@ export default function RootLayout({ children }) {
                 <p>© Kaushal Bhattarai, 2025<br />Built with NextJS & FantaCSS🔥</p>
                 <div className="social-links">
                   <Link href={'https://github.com/imkaushal10/KbStore'} target="_blank"><i className="fa-brands fa-github"></i></Link>
+                  <Link href={'https://www.linkedin.com/in/kaushalbhattarai10/'} target="_blank"><i className="fa-brands fa-linkedin"></i></Link>
                 </div>
               </div>
             </footer>
