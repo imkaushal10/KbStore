@@ -6,7 +6,7 @@ import Cart from "@/components/Cart";
 import EmailInput from "@/components/EmailInput";
 
 export const metadata = {
-  title: "Smolstore",
+  title: "KBStore",
   description: "A super cool store for programmers and productivity fiends!",
 };
 
