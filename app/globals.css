@@ -16,3 +16,57 @@ footer {
   width: 100%;
   margin: 0 auto;
 }
+
+section {
+  padding: 1rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+  padding: 1.5rem 1rem;
+}
+
+.header-content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.header-content > div:last-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  padding-right: 0.5rem;
+}
+
+.cart-num {
+  position: absolute;
+  top: -8px;
+  right: -5px;
+  color: #030615;
+  font-family: "Grenze", serif;
+}
+
+.header-content h1 {
+  background: #030615;
+  color: white;
+}
+
+.header-content a {
+  text-decoration: none;
+}
+
+.header-content i {
+  font-size: 1.4rem;
+  color: var(--color-primary);
+}
+
+.mid-text {
+  display: none;
+}
