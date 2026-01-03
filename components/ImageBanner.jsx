@@ -1,8 +1,8 @@
 export default function ImageBanner() {
     return (
-        <div className="image-banner">
-            <h2>Welcome to KBstore!</h2>
-            <p>Your one-stop shop for all things cool and techy.</p>
+        <div className="banner-images">
+            <img className="low-res-img" src="low_res/banner.jpeg" alt="banner-low-res" />
+            
         </div>
     );
 }
