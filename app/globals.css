@@ -152,3 +152,81 @@ footer .links-container > div {
   align-items: center;
   gap: 1rem;
 }
+
+/* media queries */
+
+@media (min-width: 640px) {
+  .header-content {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .mid-text {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .header-content i {
+    font-size: 1.8rem;
+  }
+
+  .cta-btns-container h1 {
+    font-size: 3rem;
+  }
+
+  .cta-btns-container > div div:last-of-type {
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .cta-btns-container button {
+    font-size: 1.4rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .section-header {
+    margin: 4rem auto 3rem auto;
+  }
+
+  .sticker-container {
+    gap: 1rem 2rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cart-item {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .sticker-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  footer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+
+  .email-container {
+    padding-right: 4rem;
+  }
+
+  .socials {
+    grid-column: span 2 / span 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .planner-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4rem;
+  }
+
+  .sticker-container {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  footer .links-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
