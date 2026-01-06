@@ -188,6 +188,33 @@ main,
   justify-content: space-between;
 }
 
+.sticker-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.sticker-card,
+.sticker-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.sticker-info {
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.sticker-info h4 {
+  font-size: 1.8rem;
+}
+
+.sticker-info h4 span {
+  font-size: 0.8rem;
+  padding-right: 0.1rem;
+}
+
 /* footer styles */
 .hr {
   height: 1px;
