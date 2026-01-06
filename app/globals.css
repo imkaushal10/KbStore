@@ -143,6 +143,44 @@ main,
   gap: 2rem;
 }
 
+.section-header,
+.sticker-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-header {
+  margin: 1rem auto;
+  margin-top: 5rem;
+}
+
+.planner-container {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+  position: relative;
+}
+
+.planner-container > div:first-of-type {
+  position: relative;
+}
+
+.planner-container > div:first-of-type img {
+  position: sticky;
+  top: 6rem;
+}
+
+.planner-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.planner-header {
+  padding-top: 0.5rem;
+}
+
 /* footer styles */
 .hr {
   height: 1px;
