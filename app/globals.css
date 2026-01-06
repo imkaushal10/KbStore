@@ -181,6 +181,13 @@ main,
   padding-top: 0.5rem;
 }
 
+.purchase-btns {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* footer styles */
 .hr {
   height: 1px;
