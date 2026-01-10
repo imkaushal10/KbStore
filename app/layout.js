@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
             <header>
               <div className="header-content">
                 <Link href={'/'}>
-                  <h1>KBstore</h1>
+                  <h1>KBStore</h1>
                 </Link>
                 <h5 className="mid-text">- Cool stuff for cool people -</h5>
                 <Cart />
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
 
             <footer>
               <div className="email-container">
-                <h5>Get a sneak peak at new additions to the store, special offers, and so much more.</h5>
+                <h5>Get a sneak peek at new additions to the store, special offers, and so much more.</h5>
                 <EmailInput />
               </div>
 
