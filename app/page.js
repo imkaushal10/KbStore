@@ -5,15 +5,25 @@ export async function getProducts() {
   
   const response = await fetch('http://localhost:3000/api/products')
   const products = await response.json()
-   const stickers = []; // Your stickers data
-  const planner = {}; // Your planner data
-  return { products, stickers, planner };
+
+  return products;
   
 }
 
 export default async function Home() {
-  const {products, stickers, planner } = await getProducts()
-  console.log(products)
+  const products = await getProducts()
+
+    let planner = null
+    let stickers = []
+
+
+    for (let product of products) {
+        if (product.name === 'Medieval Dragon Month Planner') {
+            planner = product
+            continue
+        }
+        stickers.push(product)
+    }
 
   return (
     <>
